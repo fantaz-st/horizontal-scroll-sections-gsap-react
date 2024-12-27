@@ -42,6 +42,7 @@
   padding-left: 1rem;
   padding-top: 0.5rem;
   max-width: 50vw;
+  user-select: none;
 }
 
 .title {

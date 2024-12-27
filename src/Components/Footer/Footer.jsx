@@ -29,7 +29,7 @@ const Footer = () => {
           <div className={classes.phone}>
             + 678 282 7974
             <br />
-            MZ@RADGA.COM
+            <a href='mailto:fntz@fntz.com'>FNTZ@FNTZ.COM</a>
           </div>
           <div className={classes.social}>
             ©2024 RAD
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={classes.bottom}>
-        <p>PRIVACY POLICY</p>
+        <a href='#'>PRIVACY POLICY</a>
       </div>
 
       <h1 className={classes.fntz}>FNTZ</h1>

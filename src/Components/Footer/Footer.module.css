@@ -24,7 +24,7 @@
   padding: 0;
 }
 
-.menu ul li a {
+.footer a {
   color: #fff;
   text-decoration: none;
 }
@@ -53,5 +53,5 @@
   padding: 0;
   overflow: hidden;
   line-height: 1;
-  z-index: 0;
+  z-index: -1;
 }

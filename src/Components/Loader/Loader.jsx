@@ -39,6 +39,9 @@ const Loader = () => {
           ease: "power2.out",
           opacity: 0,
           delay: 0.5,
+          onComplete: () => {
+            gsap.set(`.${classes.loader}`, { display: "none" });
+          },
         });
     }
   }, [percentage]);

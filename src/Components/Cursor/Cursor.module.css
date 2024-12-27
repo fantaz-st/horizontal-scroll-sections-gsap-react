@@ -1,0 +1,38 @@
+.cursor {
+  position: fixed;
+  top: 0.5px;
+  left: -2px;
+
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transform-origin: center;
+}
+
+.cursor * {
+  transform-origin: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 1px;
+  background: #fff;
+}
+
+.cursor .left {
+  left: -3px;
+}
+
+.cursor .right {
+  left: 3px;
+}
+
+.cursor .top {
+  top: -3px;
+  transform: rotate(90deg);
+}
+
+.cursor .bottom {
+  top: 3px;
+  transform: rotate(-90deg);
+}
