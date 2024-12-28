@@ -30,7 +30,7 @@ const Loader = () => {
       const loadAnim = gsap.timeline();
       loadAnim
         .to(loaderRef.current, {
-          x: gsap.utils.mapRange(0, 100, -300, 300)(percentage),
+          x: gsap.utils.mapRange(0, 100, -200, 200)(percentage),
           duration: 0.2,
           ease: "power1.out",
         })

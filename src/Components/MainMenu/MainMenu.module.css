@@ -1,0 +1,62 @@
+.container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  position: fixed;
+  z-index: 9;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 60px;
+  background-color: #211d1d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  min-width: 40%;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.menu .text {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.menu .text p {
+  line-height: 1.1;
+}
+
+.menu .hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.menu .hamburger span {
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0.3rem 0;
+}
+
+@media screen and (max-width: 640px) {
+  .menu {
+    max-width: 90%;
+    width: 90%;
+    bottom: 50px;
+  }
+}

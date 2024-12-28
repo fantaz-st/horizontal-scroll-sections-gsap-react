@@ -40,6 +40,8 @@
 
 .fntz {
   user-select: none;
+  pointer-events: none;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -53,5 +55,20 @@
   padding: 0;
   overflow: hidden;
   line-height: 1;
-  z-index: -1;
+  z-index: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .footer .top .line {
+    flex-direction: column;
+    width: 100%;
+  }
+  .menu ul {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .fntz {
+    font-size: 14rem;
+  }
 }
